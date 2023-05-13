@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<data>
+
+<record id="hms_department_action" model="ir.actions.act_window">
+
+    <field name="res_model">hms.department</field>
+
+    <field name="name">department</field>
+
+</record>
+
+<menuitem
+
+    id="hms_department_menu"
+
+    name="department"
+
+    />
+<menuitem
+
+    id="hms_department_menu_action"
+
+    name="department"
+
+    parent="hms_department_menu"
+
+    action="hms_department_action"
+
+    />
+    
+
+
+
+</data>
+</odoo>
+

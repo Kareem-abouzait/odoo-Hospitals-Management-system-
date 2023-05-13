@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<data>
+
+<record id="hms_doctor_action" model="ir.actions.act_window">
+
+    <field name="res_model">hms.doctor</field>
+
+    <field name="name">doctor</field>
+
+</record>
+
+<menuitem
+
+    id="hms_doctor_menu"
+
+    name="doctor"
+
+    />
+
+<menuitem
+    
+        id="hms_doctor_menu_action"
+    
+        name="doctor"
+    
+        parent="hms_doctor_menu"
+    
+        action="hms_doctor_action"
+    
+        />
+
+
+
+</data>
+
+</odoo>
